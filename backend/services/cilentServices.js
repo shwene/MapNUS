@@ -23,22 +23,40 @@ export const getPlaces = async(origin, dest) => {
         }
 
         // Extract path details
-        const record = response.records[0]; // Get the first record
-        const path = record.get("p"); // Get the path from the record
+        const record = response.records[0];
+        const path = record.get("p");
 
-        // Extract nodes and relationships
+        // Extract nodes
         const nodes = path.segments.map(segment => segment.start.properties)
             .concat(path.segments.length ? [path.end.properties] : []);
 
-        const edges = path.segments.map(segment => ({
-            src: segment.start.properties.name,
-            dest: segment.end.properties.name,
-            distance: segment.relationship.properties.Distance,
-            time_cost: segment.relationship.properties.Time_Cost,
-            geometry: segment.relationship.properties.coordinates
-        }));
+        // Extract edges and calculate total values
+        let totalDistance = 0;
+        let totalTimeCost = 0;
 
-        return { nodes, edges };
+        const edges = path.segments.map(segment => {
+            const distance = segment.relationship.properties.distance || 0;
+            const time_cost = segment.relationship.properties.time_cost || 0;
+            
+            totalDistance += distance;
+            totalTimeCost += time_cost;
+
+            return {
+                src: segment.start.properties.name,
+                dest: segment.end.properties.name,
+                distance,
+                time_cost,
+                geometry: segment.relationship.properties.coordinates || [],
+                layer: segment.end.properties.layer || "Unknown"
+            };
+        });
+
+        return { 
+            nodes, 
+            edges, 
+            total_distance: totalDistance,  // Total in meters
+            total_time_cost: totalTimeCost  // Total in seconds
+        };
 
     } catch (err) {
         console.error("Error fetching shortest path:", err);
