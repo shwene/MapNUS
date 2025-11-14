@@ -3,15 +3,15 @@ import 'dotenv/config';
 
 const username = process.env.NEO4J_USERNAME;
 const password = process.env.NEO4J_PASSWORD;
-
-const driver = neo4j.driver("bolt://localhost:7687", neo4j.auth.basic(username, password));
+const uri = process.env.NEO4J_URI || "bolt://localhost:7687";
+const driver = neo4j.driver(uri, neo4j.auth.basic(username, password));
 
 export const getPlaces = async(origin, dest) => {
     const session = driver.session();
 
     try {
         const query = `
-        MATCH p = shortestPath((a{Name: $origin})-[:CONNECTED_TO*]->(b{Name: $dest}))
+        MATCH p = shortestPath((a:Node{Name: $origin})-[:CONNECTED_TO*]->(b:Node{Name: $dest}))
         RETURN p
         `;
 
@@ -36,7 +36,7 @@ export const getVenueCoordinate = async(venueName) => {
 
     try {
         const query = `
-        MATCH (a {Name: $venueName})
+        MATCH (a:Node {Name: $venueName})
         RETURN a.Coordinate as coordinate
         `;
 
