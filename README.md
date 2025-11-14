@@ -1,23 +1,31 @@
 # MapNUS
-Mapping Your Way Through NUS
 
-## Prerqeuisites
-1. React (`18.x`)
-2. Express (`4.x`)
-3. Node.js (`18.x`)
-4. npm (`10.x`)
-5. neo4j Community Edition (`5.x`)
+Indoor navigation system for NUS campus with step-by-step directions and floor plan overlays.
 
-## Getting Started
-1. **Setting up Backend**
-```
+## Features
+- Pathfinding between campus locations
+- Interactive map with step-by-step navigation
+- Venue discovery and search
+- Save favorite routes and venues
+- Floor plan overlays (GeoJSON)
+
+## Live Demo
+https://mapnus.vercel.app
+
+## Tech Stack
+- **Frontend**: React, Vite, OpenLayers
+- **Backend**: Node.js, Express
+- **Database**: Neo4j
+- **Deployment**: Vercel, Render, Neo4j Aura
+
+## Local Development
+```bash
+# Backend
 cd backend
 npm install
-npm run dev
-```
+node server.js
 
-2. Setting up  Frontend
-```
+# Frontend
 cd frontend
 npm install
 npm run dev
