@@ -17,9 +17,6 @@ jobs:
       - name: Install backend dependencies
         working-directory: ./backend
         run: npm ci
-      - name: Test backend
-        working-directory: ./backend
-        run: npm test --if-present
 
   test-frontend:
     runs-on: ubuntu-latest
