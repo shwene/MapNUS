@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "AS5_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS5-Level1-Stair3", "Dest": "AS5-Level2-Stair3", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS5_L1_ROOMS", "Heading": "U", "Distance": 11, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551796.11689911223948, 144052.140260752115864 ], [ 11551793.753307294100523, 144052.935843856539577 ], [ 11551793.132509294897318, 144051.290729160013143 ], [ 11551797.167696287855506, 144049.831853863084689 ], [ 11551796.11689911223948, 144052.140260752115864 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS5-Level2-Stair3", "Dest": "AS5-Level1-Stair3", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS5_L2_ROOMS", "Heading": "D", "Distance": 11, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551796.11689911223948, 144052.140260752115864 ], [ 11551797.167696287855506, 144049.831853863084689 ], [ 11551793.132509294897318, 144051.290729160013143 ], [ 11551793.753307294100523, 144052.935843856539577 ], [ 11551796.11689911223948, 144052.140260752115864 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS5-Level2-Stair2", "Dest": "AS5-Level3-Stair2", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS5_L2_ROOMS", "Heading": "U", "Distance": 3, "Time_Cost": 19 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551812.254602748900652, 144086.35996966867242 ], [ 11551813.593515198677778, 144089.457540592964506 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "AS5-Level3-Stair2", "Dest": "AS5-Level2-Stair2", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS5_L3_ROOMS", "Heading": "D", "Distance": 3, "Time_Cost": 19 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551813.593515198677778, 144089.457540592964506 ], [ 11551812.254602748900652, 144086.35996966867242 ] ] } }
+]
+}

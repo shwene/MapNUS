@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "AS6_L4_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS6-Level4-Stair1-Entrance", "Dest": "AS6-0421-Entrance", "Heading": "W", "Parent_Layer": "AS6_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 13, "Time_Cost": 10 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551979.378078104928136, 144259.926741711446084 ], [ 11551967.799328902736306, 144254.085451979975915 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS6-0421-Entrance", "Dest": "AS6-0421", "Heading": "W", "Parent_Layer": "AS6_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551967.799328902736306, 144254.085451979975915 ], [ 11551964.318947838619351, 144252.371323686500546 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS6-0421-Entrance", "Dest": "AS6-0426", "Heading": "N", "Parent_Layer": "AS6_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 18, "Time_Cost": 13 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551967.799328902736306, 144254.085451979975915 ], [ 11551964.318947838619351, 144260.704539771249983 ], [ 11551956.441245157271624, 144263.330440659628948 ], [ 11551957.111117834225297, 144265.125699430296663 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "AS6-Level4-Stair1-Entrance", "Dest": "AS6-Level4-FemaleToilet", "Heading": "N", "Parent_Layer": "AS6_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551979.378078104928136, 144259.926741711446084 ], [ 11551977.984742939472198, 144262.713412042037817 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "AS6-Level4-Stair1-Entrance", "Dest": "AS6-Level4-MaleToilet", "Heading": "N", "Parent_Layer": "AS6_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 7, "Time_Cost": 5 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551979.378078104928136, 144259.926741711446084 ], [ 11551983.290134530514479, 144261.963154645345639 ], [ 11551981.950389180332422, 144264.696235161885852 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "AS6-Level4-Stair1-Entrance", "Dest": "AS6-Level4-Stair1", "Heading": "S", "Parent_Layer": "AS6_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551979.378078104928136, 144259.926741711446084 ], [ 11551980.825003083795309, 144256.979301938699791 ] ] } }
+]
+}

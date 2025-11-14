@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "AS2_L4_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS2-Level4-Stair1", "Dest": "AS2-Level4-Stair-Entrance", "Parent_Layer": "AS2_L4_ROOMS", "Heading": "E", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551784.499569704756141, 144180.062631556618726 ], [ 11551789.174757203087211, 144182.777256556175416 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS2-Level4-Stair-Entrance", "Dest": "AS2-Level4-Stair2", "Parent_Layer": "AS2_L4_ROOMS", "Heading": "E", "Steps": 0, "Sheltered": "T", "Distance": 8, "Time_Cost": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551789.174757203087211, 144182.777256556175416 ], [ 11551796.288080118596554, 144186.271079472237034 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS2-Level4-Stair-Entrance", "Dest": "AS3-0413", "Parent_Layer": "AS2_L4_ROOMS", "Heading": "N", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551789.174757203087211, 144182.777256556175416 ], [ 11551786.535538453608751, 144186.447027388872812 ] ] } }
+]
+}

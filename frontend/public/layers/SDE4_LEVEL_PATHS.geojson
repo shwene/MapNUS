@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "SDE4_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "SDE4-Level2-Lift1", "Dest": "SDE4-Level4-Lift1", "Steps": 0, "Sheltered": "T", "Parent_Layer": "SDE4_L2_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 72 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551691.19855553843081, 144371.086303299409337 ], [ 11551691.19855553843081, 144371.086303299409337 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "SDE4-Level4-Lift1", "Dest": "SDE4-Level2-Lift1", "Steps": 0, "Sheltered": "T", "Parent_Layer": "SDE4_L4_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 72 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551691.19855553843081, 144371.086303299409337 ], [ 11551691.19855553843081, 144371.086303299409337 ] ] } }
+]
+}

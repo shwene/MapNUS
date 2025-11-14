@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "COM4_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "COM4-Level2-Stair1", "Dest": "COM4-Level3-Stair1", "Steps": 24, "Sheltered": "T", "Parent_Layer": "COM4_L2_ROOMS", "Heading": "U", "Distance": 20, "Time_Cost": 32 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552205.470288120210171, 144173.297160771646304 ], [ 11552210.299603356048465, 144166.777856301458087 ], [ 11552206.872281070798635, 144165.419860679307021 ], [ 11552205.470288120210171, 144173.297160771646304 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "COM4-Level3-Stair1", "Dest": "COM4-Level2-Stair1", "Steps": 24, "Sheltered": "T", "Parent_Layer": "COM4_L3_ROOMS", "Heading": "D", "Distance": 20, "Time_Cost": 32 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552205.470288120210171, 144173.297160771646304 ], [ 11552206.872281070798635, 144165.419860679307021 ], [ 11552210.299603356048465, 144166.777856301458087 ], [ 11552205.470288120210171, 144173.297160771646304 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "COM4-Level3-Stair2", "Dest": "COM4-Level2-Stair2", "Steps": 24, "Sheltered": "T", "Parent_Layer": "COM4_L3_ROOMS", "Heading": "D", "Distance": 19, "Time_Cost": 31 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552244.836985006928444, 144199.559454484289745 ], [ 11552246.577486405149102, 144192.385773747577332 ], [ 11552249.91213534027338, 144193.814909005974187 ], [ 11552250.198808062821627, 144193.937768744304776 ], [ 11552244.836985006928444, 144199.559454484289745 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "COM4-Level2-Stair2", "Dest": "COM4-Level3-Stair2", "Steps": 24, "Sheltered": "T", "Parent_Layer": "COM4_L3_ROOMS", "Heading": "U", "Distance": 19, "Time_Cost": 31 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552244.836985006928444, 144199.559454484289745 ], [ 11552249.91213534027338, 144193.814909005974187 ], [ 11552246.577486405149102, 144192.385773747577332 ], [ 11552244.836985006928444, 144199.559454484289745 ] ] } }
+]
+}

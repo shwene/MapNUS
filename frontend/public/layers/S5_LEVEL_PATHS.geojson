@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "S5_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S5-Level1-Stair", "Dest": "S5-Level2-Stair", "Steps": 24, "Sheltered": "T", "Parent_Layer": "S5_L1_ROOMS", "Heading": "U", "Distance": 22, "Time_Cost": 33 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552730.748501112684608, 144215.410884490731405 ], [ 11552732.950839545577765, 144222.731856474507367 ], [ 11552736.0548295378685, 144221.738579676602967 ], [ 11552733.850996643304825, 144214.320043592219008 ], [ 11552730.748501112684608, 144215.410884490731405 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S5-Level2-Stair", "Dest": "S5-Level1-Stair", "Steps": 24, "Sheltered": "T", "Parent_Layer": "S5_L2_ROOMS", "Heading": "D", "Distance": 22, "Time_Cost": 33 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552730.748501112684608, 144215.410884490731405 ], [ 11552733.850996643304825, 144214.320043592219008 ], [ 11552736.0548295378685, 144221.738579676602967 ], [ 11552732.950839545577765, 144222.731856474507367 ], [ 11552730.748501112684608, 144215.410884490731405 ] ] } }
+]
+}

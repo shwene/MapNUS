@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "S17_L6_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S17-Level6-FemaleToilet", "Dest": "S17-Level6-LiftLobby-Entrance", "Heading": "E", "Parent_Layer": "S17_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 8, "Time_Cost": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552815.836281323805451, 144486.229974328161916 ], [ 11552816.772310120984912, 144484.304429371637525 ], [ 11552822.522201310843229, 144486.952053686865838 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S17-Level6-LiftLobby-Entrance", "Dest": "S17-0611", "Heading": "S", "Parent_Layer": "S17_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 6, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552822.522201310843229, 144486.952053686865838 ], [ 11552824.233796827495098, 144483.448631613166071 ], [ 11552826.346547544002533, 144483.502118973090546 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S17-Level6-LiftLobby-Entrance", "Dest": "S17-Level6-LiftLobby", "Heading": "N", "Parent_Layer": "S17_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552822.522201310843229, 144486.952053686865838 ], [ 11552820.971067873761058, 144490.268270000902703 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S17-Level6-LiftLobby", "Dest": "S17-Level6-Stair2", "Heading": "N", "Parent_Layer": "S17_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552820.971067873761058, 144490.268270000902703 ], [ 11552819.740858595818281, 144492.782175916363485 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S17-Level6-LiftLobby", "Dest": "S17-Level6-Lift2", "Heading": "W", "Parent_Layer": "S17_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552820.971067873761058, 144490.268270000902703 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } }
+]
+}

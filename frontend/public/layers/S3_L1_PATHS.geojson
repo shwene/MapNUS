@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "S3_L1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S3-Level1-East-Entrance", "Dest": "S3-Level1-LiftLobby", "Heading": "W", "Parent_Layer": "S3_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 13, "Time_Cost": 10 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552618.778327606618404, 144250.566886740882182 ], [ 11552608.224761629477143, 144243.551869355636882 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S3-Level1-LiftLobby", "Dest": "S3-Level1-Lift", "Heading": "S", "Parent_Layer": "S3_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552608.224761629477143, 144243.551869355636882 ], [ 11552610.770033424720168, 144238.709644965827465 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S3-Level1-LiftLobby", "Dest": "LT20", "Heading": "N", "Parent_Layer": "S3_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 14, "Time_Cost": 10 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552608.224761629477143, 144243.551869355636882 ], [ 11552608.907639428973198, 144257.147345527046127 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "LT20", "Dest": "S3-Level1-East-Entrance", "Heading": "E", "Parent_Layer": "S3_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552608.907639428973198, 144257.147345527046127 ], [ 11552618.778327606618404, 144250.566886740882182 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S3-Level1-East-Entrance", "Dest": "S3-Level1-Stair1", "Heading": "N", "Parent_Layer": "S3_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552618.778327606618404, 144250.566886740882182 ], [ 11552619.95784380659461, 144254.353754532930907 ] ] } }
+]
+}

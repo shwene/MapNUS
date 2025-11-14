@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "S14_L6_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S14-Level6-Lift", "Dest": "S14-Level6-FemaleToilet-Entrance", "Heading": "S", "Parent_Layer": "S14_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 15, "Time_Cost": 11 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552739.223249325528741, 144407.722741112025687 ], [ 11552739.508723324164748, 144393.096396930108313 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S14-Level6-FemaleToilet-Entrance", "Dest": "S14-0619-Entrance", "Heading": "W", "Parent_Layer": "S14_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 40, "Time_Cost": 30 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552739.508723324164748, 144393.096396930108313 ], [ 11552703.095527391880751, 144375.317603041941766 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S14-0619-Entrance", "Dest": "S14-0619", "Heading": "S", "Parent_Layer": "S14_L6_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552703.095527391880751, 144375.317603041941766 ], [ 11552704.421844759956002, 144372.749178936239332 ] ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "S17_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S17-Level1-Lift2", "Dest": "S17-Level4-Lift2", "Steps": 0, "Sheltered": "T", "Parent_Layer": null, "Heading": "L", "Distance": 0, "Time_Cost": 108 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552818.671111397445202, 144489.198522802820662 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S17-Level4-Lift2", "Dest": "S17-Level1-Lift2", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S17_L4_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 108 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552818.671111397445202, 144489.198522802820662 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S17-Level4-Lift2", "Dest": "S17-Level5-Lift2", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S17_L4_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552818.671111397445202, 144489.198522802820662 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S17-Level5-Lift2", "Dest": "S17-Level4-Lift2", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S17_L5_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552818.671111397445202, 144489.198522802820662 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S17-Level5-Lift2", "Dest": "S17-Level6-Lift2", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S17_L5_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552818.671111397445202, 144489.198522802820662 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "S17-Level6-Lift2", "Dest": "S17-Level5-Lift2", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S17_L6_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552818.671111397445202, 144489.198522802820662 ], [ 11552818.671111397445202, 144489.198522802820662 ] ] } }
+]
+}

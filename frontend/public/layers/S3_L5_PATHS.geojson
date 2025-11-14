@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "S3_L5_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S3-Level5-Lift", "Dest": "S3-Level5-LiftLobby", "Heading": "N", "Parent_Layer": "S3_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552610.770033424720168, 144238.709644965827465 ], [ 11552608.224761629477143, 144243.551869355636882 ] ] } }
+]
+}

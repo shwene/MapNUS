@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "S16_L2_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S16-Level2-LiftLobby", "Dest": "S16-Level2-Lift", "Heading": "S", "Parent_Layer": "S16_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552771.076010417193174, 144355.785177127312636 ], [ 11552772.440733592957258, 144352.791358904709341 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S16-Level2-LiftLobby", "Dest": "S16-Level2-Stair4-Entrance", "Heading": "E", "Parent_Layer": "S16_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552771.076010417193174, 144355.785177127312636 ], [ 11552771.079215664416552, 144355.786698347830679 ], [ 11552781.810625867918134, 144360.879859698179644 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S16-Level2-Stair4-Entrance", "Dest": "S16-Level2-Stair4", "Heading": "N", "Parent_Layer": "S16_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552781.810625867918134, 144360.879859698179644 ], [ 11552780.48317564278841, 144364.957256415102165 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S16-Level2-LiftLobby", "Dest": "S16-Level2-MaleToilet", "Heading": "W", "Parent_Layer": "S16_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552771.079215664416552, 144355.786698347830679 ], [ 11552765.43607753701508, 144353.041886512277415 ], [ 11552766.901437740772963, 144349.599993939307751 ], [ 11552765.538311969488859, 144348.884352909313748 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "S16-Level2-Stair4-Entrance", "Dest": "S16-0208-Entrance", "Heading": "E", "Parent_Layer": "S16_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 28, "Time_Cost": 21 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552781.810625867918134, 144360.879859698179644 ], [ 11552791.876554032787681, 144360.194339434761787 ], [ 11552808.082421258091927, 144368.016570958890952 ] ] } },
+{ "type": "Feature", "properties": { "fid": 7, "Src": "S16-0208-Entrance", "Dest": "S16-0208", "Heading": "N", "Parent_Layer": "S16_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552808.082421258091927, 144368.016570958890952 ], [ 11552806.922185961157084, 144370.411895444762195 ] ] } }
+]
+}

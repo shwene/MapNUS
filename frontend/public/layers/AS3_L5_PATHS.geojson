@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "AS3_L5_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS3-Level5-Lift-Lobby", "Dest": "AS3-Level5-Stair1", "Heading": "N", "Parent_Layer": "AS3_ L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 6, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551764.279408946633339, 144146.674423898482928 ], [ 11551767.212425526231527, 144152.479352548310999 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS3-Level5-Lift-Lobby", "Dest": "AS3-Level5-FemaleToilet", "Heading": "N", "Parent_Layer": "AS3_ L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 8, "Time_Cost": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551764.279408946633339, 144146.674423898482928 ], [ 11551760.490929195657372, 144154.190278887224849 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS3-Level5-Lift-Lobby", "Dest": "AS3-Level5-MaleToilet", "Heading": "W", "Parent_Layer": "AS3_ L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 8, "Time_Cost": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551764.279408946633339, 144146.674423898482928 ], [ 11551757.191285541281104, 144149.485231455240864 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "AS3-Level5-Lift-Lobby", "Dest": "AS3-Level5-Lift", "Heading": "E", "Parent_Layer": "AS3_ L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551764.279408946633339, 144146.674423898482928 ], [ 11551767.884575160220265, 144146.79663292269106 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "AS3-Level5-Lift-Lobby", "Dest": "AS3-0523", "Heading": "S", "Parent_Layer": "AS3_ L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 23, "Time_Cost": 17 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551764.279408946633339, 144146.674423898482928 ], [ 11551765.073767602443695, 144133.842476356716361 ], [ 11551758.590006023645401, 144136.20836668467382 ], [ 11551759.979178912937641, 144139.404896474123234 ] ] } }
+]
+}

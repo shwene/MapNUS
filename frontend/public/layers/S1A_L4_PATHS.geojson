@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "S1A_L4_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S1A-Level4-LiftLobby", "Dest": "S1A-Level4-Lift", "Heading": "S", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552560.190491644665599, 144274.82653203693917 ], [ 11552561.956248078495264, 144271.853802855941467 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S1A-Level4-LiftLobby", "Dest": "S1A-Level4-Stair1", "Heading": "E", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 7, "Time_Cost": 5 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552560.190491644665599, 144274.82653203693917 ], [ 11552566.493571564555168, 144278.425098940206226 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S1A-Level4-LiftLobby", "Dest": "S1A-Level4-Toilets-Entrance", "Heading": "S", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552560.190491644665599, 144274.82653203693917 ], [ 11552553.786830669268966, 144271.021215171844233 ], [ 11552554.725587252527475, 144266.226851192011964 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S1A-Level4-LiftLobby", "Dest": "S1A-04LAB3", "Heading": "W", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 10, "Time_Cost": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552560.190491644665599, 144274.82653203693917 ], [ 11552550.221790783107281, 144273.843072759045754 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "S1A-Level4-LiftLobby", "Dest": "S1A-04LAB4", "Heading": "E", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 14, "Time_Cost": 10 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552560.190491644665599, 144274.82653203693917 ], [ 11552569.332192661240697, 144286.046908344025724 ] ] } },
+{ "type": "Feature", "properties": { "fid": 9, "Src": "S1A-Level4-Toilets-Entrance", "Dest": "S1A-Level4-MaleToilet", "Heading": "W", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552554.725587252527475, 144266.226851192011964 ], [ 11552552.227824198082089, 144264.936060889769578 ] ] } },
+{ "type": "Feature", "properties": { "fid": 10, "Src": "S1A-Level4-Toilets-Entrance", "Dest": "S1A-Level4-FemaleToilet", "Heading": "E", "Parent_Layer": "S1A_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552554.725587252527475, 144266.226851192011964 ], [ 11552557.390985406935215, 144267.551168515143218 ] ] } }
+]
+}

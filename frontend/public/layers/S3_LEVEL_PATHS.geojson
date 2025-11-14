@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "S3_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S3-Level1-Lift", "Dest": "S3-Level5-Lift", "Steps": 0, "Sheltered": "T", "Heading": "L", "Parent_Layer": "S3_L1_ROOMS", "Distance": 0, "Time_Cost": 144 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552610.770033424720168, 144238.709644965827465 ], [ 11552610.770033424720168, 144238.709644965827465 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S3-Level5-Lift", "Dest": "S3-Level1-Lift", "Steps": 0, "Sheltered": "T", "Heading": "L", "Parent_Layer": "S3_L5_ROOMS", "Distance": 0, "Time_Cost": 144 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552610.770033424720168, 144238.709644965827465 ], [ 11552610.770033424720168, 144238.709644965827465 ] ] } }
+]
+}

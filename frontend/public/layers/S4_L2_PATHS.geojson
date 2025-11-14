@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "S4_L2_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S4-Level2-EastEntrance", "Dest": "S4-Level2-Stair", "Heading": "S", "Parent_Layer": "S4_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552673.915072873234749, 144233.656337139487732 ], [ 11552672.09301919490099, 144228.886843689047964 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S4-Level2-EastEntrance", "Dest": "S4-02LAB-Entrance", "Heading": "S", "Parent_Layer": "S4_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 15, "Time_Cost": 11 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552673.915072873234749, 144233.656337139487732 ], [ 11552659.522918244823813, 144238.792805183271412 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S4-02LAB-Entrance", "Dest": "S4-02LAB", "Heading": "S", "Parent_Layer": "S4_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 6, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552659.522918244823813, 144238.792805183271412 ], [ 11552657.634515274316072, 144233.382785860187141 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S4-02LAB-Entrance", "Dest": "S4-Level2-WestEntrance", "Heading": "W", "Parent_Layer": "S4_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 39, "Time_Cost": 29 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552659.522918244823813, 144238.792805183271412 ], [ 11552643.037670683115721, 144244.662165769637795 ], [ 11552621.652782982215285, 144248.745199221011717 ] ] } }
+]
+}

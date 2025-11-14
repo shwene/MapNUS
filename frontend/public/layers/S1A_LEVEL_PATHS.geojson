@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "S1A_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S1A-Level2-Lift", "Dest": "S1A-Level3-Lift", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S1A_L2_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552561.956248078495264, 144271.853802855941467 ], [ 11552561.956248078495264, 144271.853802855941467 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S1A-Level3-Lift", "Dest": "S1A-Level2-Lift", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S1A_L3_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552561.956248078495264, 144271.853802855941467 ], [ 11552561.956248078495264, 144271.853802855941467 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S1A-Level3-Lift", "Dest": "S1A-Level4-Lift", "Steps": 0, "Sheltered": "TT", "Parent_Layer": "S1A_L3_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552561.956248078495264, 144271.853802855941467 ], [ 11552561.956248078495264, 144271.853802855941467 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S1A-Level4-Lift", "Dest": "S1A-Level3-Lift", "Steps": 0, "Sheltered": "T", "Parent_Layer": "S1A_L4_ROOMS", "Heading": "L", "Distance": 0, "Time_Cost": 36 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552561.956248078495264, 144271.853802855941467 ], [ 11552561.956248078495264, 144271.853802855941467 ] ] } }
+]
+}

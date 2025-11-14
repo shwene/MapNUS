@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "S11_L2_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S11-0205", "Dest": "S11-0205-Entrance", "Heading": "E", "Parent_Layer": "S11_L2_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552596.303749633952975, 144354.314441918424563 ], [ 11552600.893226264044642, 144352.76474851067178 ] ] } }
+]
+}

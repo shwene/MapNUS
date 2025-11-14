@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "COM2_B1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "COM2-Basement1-Stair5", "Dest": "COM2-Basement1-Corridor", "Heading": "S", "Parent_Layer": "COM2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 23, "Time_Cost": 17 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552098.006298698484898, 144008.894698612828506 ], [ 11552107.399856168776751, 143988.035293080523843 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "COM2-Basement1-Corridor", "Dest": "COM2-Basement1-Stair2", "Heading": "S", "Parent_Layer": "COM2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 8, "Time_Cost": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552107.399856168776751, 143988.035293080523843 ], [ 11552110.472806263715029, 143980.958195895393146 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "COM2-Basement1-Corridor", "Dest": "LT18-Entrance", "Heading": "E", "Parent_Layer": "COM2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 24, "Time_Cost": 18 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552107.399856168776751, 143988.035293080523843 ], [ 11552129.065706323832273, 143998.216380259080324 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "LT18-Entrance", "Dest": "LT18", "Heading": "S", "Parent_Layer": "COM2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 6, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552129.065706323832273, 143998.216380259080324 ], [ 11552131.424738716334105, 143992.877517470304156 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "LT18-Entrance", "Dest": "LT18-Linkway", "Heading": "E", "Parent_Layer": "COM2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 9, "Time_Cost": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552129.065706323832273, 143998.216380259080324 ], [ 11552136.328116478398442, 144003.029083493427606 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "LT18-Linkway", "Dest": "LT18-Entrance", "Heading": "W", "Parent_Layer": "COM2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 9, "Time_Cost": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552136.328116478398442, 144003.029083493427606 ], [ 11552129.065706323832273, 143998.216380259080324 ] ] } }
+]
+}

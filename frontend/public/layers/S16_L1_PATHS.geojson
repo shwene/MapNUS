@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "S16_L1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S16-Level1-LiftLobby", "Dest": "S16-Level1-Lift", "Heading": "S", "Parent_Layer": "S16_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552770.736826378852129, 144356.539954776264494 ], [ 11552772.440733592957258, 144352.791358904709341 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S16-Level1-LiftLobby", "Dest": "S16-Level1-Stair4-Entrance", "Heading": "E", "Parent_Layer": "S16_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 15, "Time_Cost": 11 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552770.736826378852129, 144356.539954776264494 ], [ 11552778.574799560010433, 144369.251102595211705 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S16-Level1-Stair4-Entrance", "Dest": "S16-Level1-Stair4", "Heading": "S", "Parent_Layer": "S16_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552778.574799560010433, 144369.251102595211705 ], [ 11552780.48317564278841, 144364.957256415102165 ] ] } }
+]
+}

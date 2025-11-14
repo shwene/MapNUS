@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "CANTEEN_DECK_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "Deck-Level2-AS4-Entrance", "Dest": "Deck-Level2-North-Entrance", "Heading": "E", "Parent_Layer": "CANTEEN_DECK_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 21, "Time_Cost": 16 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551877.124504677951336, 144147.088817074836697 ], [ 11551896.073711140081286, 144156.261039351695217 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "Deck-Level2-North-Entrance", "Dest": "Deck-Level1-East-Entrance", "Heading": "E", "Parent_Layer": "CANTEEN_DECK_ROOMS", "Steps": 12, "Sheltered": "T", "Distance": 25, "Time_Cost": 27 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551896.073711140081286, 144156.261039351695217 ], [ 11551903.633234994485974, 144157.168182214256376 ], [ 11551910.587996941059828, 144154.749134580808459 ], [ 11551913.007044574245811, 144151.422944084799383 ], [ 11551917.945933492854238, 144153.942785369639751 ] ] } }
+]
+}

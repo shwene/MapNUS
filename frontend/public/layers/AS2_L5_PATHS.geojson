@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "AS2_L5_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS2-Level5-Stair", "Dest": "AS2-Level5-Stair-Entrance", "Parent_Layer": "AS2_L5_ROOMS", "Heading": "E", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551811.174923352897167, 144193.896929242735496 ], [ 11551815.699298352003098, 144196.033439659047872 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS2-Level5-Stair-Entrance", "Dest": "AS2-0509-Entrance", "Parent_Layer": "AS2_L5_ROOMS", "Heading": "W", "Steps": 0, "Sheltered": "T", "Distance": 14, "Time_Cost": 10 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551815.699298352003098, 144196.033439659047872 ], [ 11551814.074922038242221, 144198.669516481459141 ], [ 11551804.071026207879186, 144193.416214399010642 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS2-0509-Entrance", "Dest": "AS2-0510-Entrance", "Parent_Layer": "AS2_L5_ROOMS", "Heading": "W", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551804.071026207879186, 144193.416214399010642 ], [ 11551801.381536623463035, 144191.983495649241377 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "AS2-0509-Entrance", "Dest": "AS2-0509", "Parent_Layer": "AS2_L5_ROOMS", "Heading": "N", "Steps": 0, "Sheltered": "T", "Distance": 2, "Time_Cost": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551804.071026207879186, 144193.416214399010642 ], [ 11551803.266692874953151, 144194.848933148779906 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "AS2-0510-Entrance", "Dest": "AS2-0510", "Parent_Layer": "AS2_L5_ROOMS", "Heading": "N", "Steps": 0, "Sheltered": "T", "Distance": 2, "Time_Cost": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551801.381536623463035, 144191.983495649241377 ], [ 11551800.577203290537, 144193.290537315711845 ] ] } }
+]
+}

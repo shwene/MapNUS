@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "CLB_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "CentralLibrary-Level1-Lift", "Dest": "CentralLibrary-Level4-Lift", "Steps": 0, "Sheltered": "T", "Heading": "L", "Parent_Layer": "CLB_L1_ROOMS", "Distance": 0, "Time_Cost": 108 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551975.329019168391824, 144308.988619626528816 ], [ 11551975.329019168391824, 144308.988619626528816 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "CentralLibrary-Level4-Lift", "Dest": "CentralLibrary-Level1-Lift", "Steps": 0, "Sheltered": "T", "Heading": "L", "Parent_Layer": "CLB_L4_ROOMS", "Distance": 0, "Time_Cost": 108 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551975.329019168391824, 144308.988619626528816 ], [ 11551975.329019168391824, 144308.988619626528816 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "CentralLibrary-Level4-Stair2", "Dest": "CLB-Level6-Stair2", "Steps": 48, "Sheltered": "T", "Heading": "U", "Parent_Layer": "CLB_L4_ROOMS", "Distance": 23, "Time_Cost": 51 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551982.359376361593604, 144326.488917349808617 ], [ 11551989.918900270015001, 144348.632022641075309 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "CentralLibrary-Level6-Stair2", "Dest": "CentralLibrary-Level4-Stair2", "Steps": 48, "Sheltered": "T", "Heading": "D", "Parent_Layer": "CLB_L6_ROOMS", "Distance": 23, "Time_Cost": 51 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551989.918900270015001, 144348.632022641075309 ], [ 11551982.359376361593604, 144326.488917349808617 ] ] } }
+]
+}

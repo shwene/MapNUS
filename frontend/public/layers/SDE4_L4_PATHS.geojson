@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "SDE4_L4_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "SDE4-Level4-Lift1", "Dest": "SDE4-Level4-Lift1-Entrance", "Heading": "N", "Parent_Layer": "SDE4_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551691.19855553843081, 144371.086303299409337 ], [ 11551692.167298028245568, 144373.890557913895464 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "SDE4-Level4-Lift1-Entrance", "Dest": "SDE4-EXR-1-Entrance", "Heading": "W", "Parent_Layer": "SDE4_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 16, "Time_Cost": 12 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551692.167298028245568, 144373.890557913895464 ], [ 11551676.667417975142598, 144379.029991825693287 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "SDE4-EXR-1-Entrance", "Dest": "SDE4-EXR-1-2-Entrance", "Heading": "S", "Parent_Layer": "SDE4_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 17, "Time_Cost": 13 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551676.667417975142598, 144379.029991825693287 ], [ 11551671.222065379843116, 144362.897879824711708 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "SDE4-EXR-1-Entrance", "Dest": "SDE4-EXR-1", "Heading": "E", "Parent_Layer": "SDE4_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551676.667417975142598, 144379.029991825693287 ], [ 11551678.421351773664355, 144374.359633231215412 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "SDE4-EXR-1-2-Entrance", "Dest": "SDE4-EXR-1-2", "Heading": "E", "Parent_Layer": "SDE4_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551671.222065379843116, 144362.897879824711708 ], [ 11551674.62796007655561, 144361.633415925782174 ] ] } }
+]
+}

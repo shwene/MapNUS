@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "S11_L3_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S11-0301-Entrance", "Dest": "S11-0301", "Heading": "E", "Parent_Layer": "S11_L3_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552606.94299091398716, 144367.159016124875052 ], [ 11552611.055638803169131, 144365.728529902320588 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S11-0301-Entrance", "Dest": "S11-0302A-Entrance", "Heading": "S", "Parent_Layer": "S11_L3_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552606.94299091398716, 144367.159016124875052 ], [ 11552603.053856493905187, 144356.162153289158596 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S11-0302A-Entrance", "Dest": "S11-0302B-Entrance", "Heading": "S", "Parent_Layer": "S11_L3_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552603.053856493905187, 144356.162153289158596 ], [ 11552599.298830159008503, 144344.718263508926611 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S11-0302A-Entrance", "Dest": "S11-0302A", "Heading": "W", "Parent_Layer": "S11_L3_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552603.053856493905187, 144356.162153289158596 ], [ 11552599.209424771368504, 144357.503234122763388 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S11-0302B-Entrance", "Dest": "S11-0302B", "Heading": "E", "Parent_Layer": "S11_L3_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552599.298830159008503, 144344.718263508926611 ], [ 11552603.232667271047831, 144343.287777286401251 ] ] } }
+]
+}

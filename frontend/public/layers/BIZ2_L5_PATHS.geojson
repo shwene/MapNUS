@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "BIZ2_L5_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "BIZ2-Level5-Stair1", "Dest": "BIZ2-0509-Entrance", "Heading": "S", "Parent_Layer": "BIZ2_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 11, "Time_Cost": 8 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552231.827856244519353, 143991.232873579690931 ], [ 11552227.836607877165079, 143980.524607293191366 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "BIZ2-0509-Entrance", "Dest": "BIZ2-0510-Entrance", "Heading": "W", "Parent_Layer": "BIZ2_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 22, "Time_Cost": 16 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552227.836607877165079, 143980.524607293191366 ], [ 11552207.350273918360472, 143988.082822927302914 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "BIZ2-0510-Entrance", "Dest": "BIZ2-0511-Entrance", "Heading": "W", "Parent_Layer": "BIZ2_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 19, "Time_Cost": 14 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552207.350273918360472, 143988.082822927302914 ], [ 11552189.859290303662419, 143994.52360216373927 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "BIZ2-0511-Entrance", "Dest": "BIZ2-0511", "Heading": "S", "Parent_Layer": "BIZ2_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 11, "Time_Cost": 8 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552189.859290303662419, 143994.52360216373927 ], [ 11552185.828726729378104, 143984.252773112268187 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "BIZ2-0510-Entrance", "Dest": "BIZ2-0510", "Heading": "S", "Parent_Layer": "BIZ2_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 10, "Time_Cost": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552207.350273918360472, 143988.082822927302914 ], [ 11552204.174891177564859, 143978.42265088277054 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "BIZ2-0509-Entrance", "Dest": "BIZ2-0509", "Heading": "S", "Parent_Layer": "BIZ2_L5_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 11, "Time_Cost": 8 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552227.836607877165079, 143980.524607293191366 ], [ 11552224.125676421448588, 143970.560008976928657 ] ] } }
+]
+}

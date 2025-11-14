@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "CLB_L4_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "CentralLibrary-Level4-Lift", "Dest": "CentralLibrary-Level4-LiftLobby", "Heading": "W", "Parent_Layer": "CLB_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551975.329019168391824, 144308.988619626528816 ], [ 11551971.331847006455064, 144310.239231873740209 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "CentralLibrary-Level4-LiftLobby", "Dest": "CentralLibrary-Level4-Stair2", "Heading": "N", "Parent_Layer": "CLB_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 21, "Time_Cost": 16 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551971.331847006455064, 144310.239231873740209 ], [ 11551974.566893322393298, 144320.595245432195952 ], [ 11551982.359376361593604, 144326.488917349808617 ] ] } }
+]
+}

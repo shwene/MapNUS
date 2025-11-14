@@ -1,10 +1,12 @@
 # MapNUS
-Find your path in NUS, from BIZ2-0117 to EA-04-21.
+Mapping Your Way Through NUS
 
 ## Prerqeuisites
-1. Node.js (`20.x`)
-2. npm
-3. neo4j Community Edition
+1. React (`18.x`)
+2. Express (`4.x`)
+3. Node.js (`18.x`)
+4. npm (`10.x`)
+5. neo4j Community Edition (`5.x`)
 
 ## Getting Started
 1. **Setting up Backend**

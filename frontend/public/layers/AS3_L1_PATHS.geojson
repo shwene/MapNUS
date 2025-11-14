@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "AS3_L1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS3- Level1-Entrance", "Dest": "AS3-Level1-Stair", "Heading": "E", "Parent_Layer": "AS3_ L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 20, "Time_Cost": 15 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551732.567509740591049, 144150.323663323390065 ], [ 11551751.800244521349669, 144143.339454198605381 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS3- Level1-Entrance", "Dest": "AS3- Level1-Linkway", "Heading": "N", "Parent_Layer": "AS3_ L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 24, "Time_Cost": 18 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551732.567509740591049, 144150.323663323390065 ], [ 11551740.530208203941584, 144173.632195208600024 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS3- Level1-Linkway", "Dest": "LT13", "Heading": "W", "Parent_Layer": "AS3_ L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 9, "Time_Cost": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551740.530208203941584, 144173.632195208600024 ], [ 11551732.063541486859322, 144176.25283014489105 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "AS3- Level1-Linkway", "Dest": "LT12", "Heading": "E", "Parent_Layer": "AS3_ L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 7, "Time_Cost": 5 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551740.530208203941584, 144173.632195208600024 ], [ 11551746.981001893058419, 144171.616322180692805 ] ] } }
+]
+}

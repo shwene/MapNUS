@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "COM2_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "COM2-Level1-Stair5", "Dest": "COM2-Basement1-Stair5", "Steps": 24, "Sheltered": "T", "Heading": "D", "Parent_Layer": "COM2_L1_ROOMS", "Distance": 7, "Time_Cost": 22 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552095.548973286524415, 144015.878676098131109 ], [ 11552098.006298698484898, 144008.894698612828506 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "COM2-Basement1-Stair5", "Dest": "COM2-Level1-Stair5", "Steps": 24, "Sheltered": "T", "Heading": "U", "Parent_Layer": "COM2_B1_ROOMS", "Distance": 7, "Time_Cost": 22 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552098.006298698484898, 144008.894698612828506 ], [ 11552095.548973286524415, 144015.878676098131109 ] ] } }
+]
+}

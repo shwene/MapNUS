@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "AS1_LEVEL_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS1-Level2-Stair4", "Dest": "AS1-Level3-Stair4", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS1_L2_ROOMS", "Heading": "U", "Distance": 11, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551859.09260057285428, 144181.551638665638166 ], [ 11551869.375774113461375, 144186.093794076819904 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS1-Level3-Stair4", "Dest": "AS1-Level2-Stair4", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS1_L3_ROOMS", "Heading": "D", "Distance": 11, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551869.375774113461375, 144186.093794076819904 ], [ 11551859.09260057285428, 144181.551638665638166 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "AS1-Level3-Stair1", "Dest": "AS1-Level2-Stair1", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS1_L3_ROOMS", "Heading": "D", "Distance": 11, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551904.25535105727613, 144234.177819575415924 ], [ 11551908.740616597235203, 144232.610304628702579 ], [ 11551908.197418348863721, 144231.120389431831427 ], [ 11551903.510393459349871, 144232.796544028329663 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "AS1-Level2-Stair1", "Dest": "AS1-Level3-Stair1", "Steps": 24, "Sheltered": "T", "Parent_Layer": "AS1_L2_ROOMS", "Heading": "U", "Distance": 11, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551903.510393459349871, 144232.796544028329663 ], [ 11551908.197418348863721, 144231.120389431831427 ], [ 11551908.740616597235203, 144232.610304628702579 ], [ 11551904.25535105727613, 144234.177819575415924 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "AS1-Level2-Stair3", "Dest": "AS1-Level1-Stair3", "Steps": 24, "Sheltered": "T", "Parent_Layer": null, "Heading": "D", "Distance": 19, "Time_Cost": 31 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551845.762134328484535, 144175.000283898058115 ], [ 11551828.423007002100348, 144167.000886477500899 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "AS1-Level1-Stair3", "Dest": "AS1-Level2-Stair3", "Steps": 24, "Sheltered": "T", "Parent_Layer": null, "Heading": "U", "Distance": 19, "Time_Cost": 31 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551828.423007002100348, 144167.000886477500899 ], [ 11551845.762134328484535, 144175.000283898058115 ] ] } }
+]
+}

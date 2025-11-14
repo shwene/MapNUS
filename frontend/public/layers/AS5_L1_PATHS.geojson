@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "AS5_L1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "AS5-Level1-LiftLobby", "Dest": "AS5-Level1-Stair3", "Heading": "S", "Parent_Layer": "AS5_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 2, "Time_Cost": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551796.797404685989022, 144054.1817774772353 ], [ 11551796.11689911223948, 144052.140260752115864 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "AS5-Level1-LiftLobby", "Dest": "AS5-Level1-Lift", "Heading": "N", "Parent_Layer": "AS5_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551796.797404685989022, 144054.1817774772353 ], [ 11551797.575125344097614, 144056.612154530972475 ] ] } }
+]
+}

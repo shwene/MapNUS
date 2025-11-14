@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "BIZ2_B1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "BIZ2-B1-Stairs", "Dest": "BIZ2-B104", "Heading": "N", "Parent_Layer": "BIZ2_B1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 7, "Time_Cost": 5 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552204.671875083819032, 143973.547863475512713 ], [ 11552206.732353780418634, 143980.097729529021308 ] ] } }
+]
+}

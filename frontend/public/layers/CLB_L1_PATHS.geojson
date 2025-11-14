@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "CLB_L1_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "CLB-Foyer", "Dest": "CentralLibrary-Level1-LiftLobby", "Heading": "E", "Parent_Layer": "CLB_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 35, "Time_Cost": 26 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551933.046082399785519, 144322.305980817007367 ], [ 11551966.912749269977212, 144311.621853769232985 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "CentralLibrary-Level1-LiftLobby", "Dest": "CentralLibrary-Level1-Lift", "Heading": "E", "Parent_Layer": "CLB_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 9, "Time_Cost": 7 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551966.912749269977212, 144311.621853769232985 ], [ 11551975.329019168391824, 144308.988619626528816 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "CLB-Plaza", "Dest": "CLB-Foyer", "Heading": "E", "Parent_Layer": "CLB_L1_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 35, "Time_Cost": 26 }, "geometry": { "type": "LineString", "coordinates": [ [ 11551898.035802140831947, 144319.18293056517723 ], [ 11551933.046082399785519, 144322.305980817007367 ] ] } }
+]
+}

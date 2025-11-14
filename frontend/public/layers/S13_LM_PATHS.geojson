@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "S13_LM_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Src": "S13-LevelM-EastEntrance", "Dest": "S13-LevelM-Foyer", "Heading": "N", "Parent_Layer": "S13_LM_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 12, "Time_Cost": 9 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552667.220659982413054, 144349.645254939037841 ], [ 11552671.369628809392452, 144360.658881283510709 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Src": "S13-LevelM-Foyer", "Dest": "S13-LevelM-Corridor", "Heading": "W", "Parent_Layer": "S13_LM_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 33, "Time_Cost": 25 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552671.369628809392452, 144360.658881283510709 ], [ 11552640.516387885436416, 144371.634789729578188 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Src": "S13-LevelM-Corridor", "Dest": "S13-M-08", "Heading": "S", "Parent_Layer": "S13_LM_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552640.516387885436416, 144371.634789729578188 ], [ 11552641.068012151867151, 144368.480630472593475 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S13-LevelM-Corridor", "Dest": "S13-M-09", "Heading": "S", "Parent_Layer": "S13_LM_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 3, "Time_Cost": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552640.516387885436416, 144371.634789729578188 ], [ 11552637.800699196755886, 144369.725321121077286 ] ] } }
+]
+}

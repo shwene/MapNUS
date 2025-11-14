@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "S8_L4_PATHS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 4, "Src": "S8-0402-Entrance", "Dest": "S8-Level4-FemaleToilet-Entrance", "Heading": "E", "Parent_Layer": "S8_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 8, "Time_Cost": 6 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552690.194308897480369, 144290.62800321955001 ], [ 11552697.629857074469328, 144287.990544246829813 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Src": "S8-0402-Entrance", "Dest": "S8-0402", "Heading": "S", "Parent_Layer": "S8_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552690.194308897480369, 144290.62800321955001 ], [ 11552688.734020877629519, 144286.57495892237057 ] ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Src": "S8-Level4-FemaleToilet-Entrance", "Dest": "S8-Level4-Stair2", "Heading": "N", "Parent_Layer": "S8_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 4, "Time_Cost": 3 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552697.629857074469328, 144287.990544246829813 ], [ 11552698.717622647061944, 144291.581660701107467 ] ] } },
+{ "type": "Feature", "properties": { "fid": 7, "Src": "S8-Level4-FemaleToilet-Entrance", "Dest": "S8-Level4-FemaleToilet", "Heading": "S", "Parent_Layer": "S8_L4_ROOMS", "Steps": 0, "Sheltered": "T", "Distance": 5, "Time_Cost": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 11552697.629857074469328, 144287.990544246829813 ], [ 11552699.421042513102293, 144283.09166733440361 ] ] } }
+]
+}
