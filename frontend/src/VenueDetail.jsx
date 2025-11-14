@@ -8,6 +8,8 @@ import homeIcon from './assets/home.png';
 import unlikedIcon from './assets/unliked.png';
 import likedIcon from './assets/liked.png';
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
 function VenueDetail() {
   const { venueName } = useParams();
   const navigate = useNavigate();
@@ -72,7 +74,7 @@ function VenueDetail() {
     const fetchVenueData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`http://localhost:5000/venue/${encodeURIComponent(venueName)}`);
+        const response = await fetch(`${API_URL}/venue/${encodeURIComponent(venueName)}`);
         if (!response.ok) {
           throw new Error('Failed to fetch venue data');
         }

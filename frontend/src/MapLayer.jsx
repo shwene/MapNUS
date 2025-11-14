@@ -32,6 +32,8 @@ const DIRECTION_ICONS = {
   'Take Lift': liftIcon
 };
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
 function MapLayer() {
   const { from, to } = useParams();
   const [pathData, setPathData] = useState(null);
@@ -57,7 +59,7 @@ function MapLayer() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`http://localhost:5000/map/path?origin=${encodeURIComponent(from)}&dest=${encodeURIComponent(to)}`);
+        const response = await fetch(`${API_URL}/map/path?origin=${encodeURIComponent(from)}&dest=${encodeURIComponent(to)}`);
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
