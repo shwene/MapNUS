@@ -57,3 +57,26 @@ export const getVenueCoordinate = async(venueName) => {
         await session.close();
     }
 }
+
+export const keepDatabaseAlive = async () => {
+    const session = driver.session();
+
+    try {
+        const query = `
+        MERGE (keep:KeepAlive {id: 'ping'})
+        SET keep.lastPing = timestamp()
+        RETURN keep.lastPing as lastPing
+        `;
+
+        const response = await session.run(query);
+        const lastPing = response.records[0].get('lastPing');
+
+        return { success: true, lastPing: lastPing.toString() };
+
+    } catch (err) {
+        console.error("Error keeping database alive:", err);
+        return { error: "Failed to keep database alive" };
+    } finally {
+        await session.close();
+    }
+}

@@ -42,3 +42,22 @@ export const getVenueCoordinate = async (req, res) => {
         res.status(500).json({ message: "Internal Server Error" });
     }
 };
+
+export const keepAlive = async (req, res) => {
+    try {
+        const result = await cilentServices.keepDatabaseAlive();
+        
+        if (result.error) {
+            return res.status(500).json({ message: result.error });
+        }
+
+        res.status(200).json({
+            message: "Backend and database kept alive",
+            lastPing: result.lastPing,
+            timestamp: new Date().toISOString()
+        });
+    } catch (err) {
+        console.error("Keep-alive error:", err);
+        res.status(500).json({ message: "Internal Server Error" });
+    }
+};

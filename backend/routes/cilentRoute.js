@@ -8,7 +8,8 @@ router.get('/', (req, res) => {
 });
 
 router.get('/map/path', cilentController.getPlaces);
-
 router.get('/venue/:venueName', cilentController.getVenueCoordinate);
+
+router.get('/api/keepalive', cilentController.keepAlive);
 
 export default router;
